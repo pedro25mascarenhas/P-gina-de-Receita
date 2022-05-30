@@ -1,0 +1,68 @@
+:root {
+  --bg-color: #EAEAEA;
+  --bg-recipe: #FFFFFF;
+  --titles-captions: #1B1B1B;
+  --footer-subtitles: #8F8F8F;
+  --other: #39393A;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+body {
+  background: var(--bg-color);
+  font-family: 'Roboto', sans-serif;
+
+}
+main {
+  background: var(--bg-recipe);
+  margin: 50px 160px;
+  padding-top: 100px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-radius: 4px;
+
+}
+h1 {
+  font-size: 1.75rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+ul, ol {
+  font-size: 1rem;
+  line-height: 3rem;
+  padding-left: 2rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 3rem;
+  padding-left: 1rem;
+}
+
+footer, .legenda {
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+.waffle{
+  height: 250px;
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-top: 30px;
+
+}
+
+figcaption{
+  text-align: right;
+  color: #39393A;
+}
